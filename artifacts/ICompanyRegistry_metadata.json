@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "company",
+						"type": "address"
+					}
+				],
+				"name": "isCompanyVerified",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".git/CarbonCredits1by1.sol": "ICompanyRegistry"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".git/CarbonCredits1by1.sol": {
+			"keccak256": "0x9ed9b60e64291900b9a537a7323631b04b931c8a470c8bc3a5dfdea016777fbf",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://43f992d3b6a22c4bbbf6ab027ef3eec4e51b2eb0ec9e5fc9f4af58ad7945be82",
+				"dweb:/ipfs/QmXPiqnHcfbBpn1ZNZJdPFiAMLxWbd4V7NRvNh7rNEN29e"
+			]
+		}
+	},
+	"version": 1
+}
